@@ -1,0 +1,8 @@
+.post{
+  border: 3px solid;
+width: 40%;
+margin-top: 30px;
+}
+.post-data{
+  color: gray;
+}
