@@ -5,6 +5,7 @@ function check(){
       return null
     }
     post.setAttribute("data-load","true");
+    
     post.addEventListener("click", ()  => {
       const postId = post.getAttribute("data-id");//クリックしたときに行う「何らかの処理」を記述
       const XHR = new XMLHttpRequest();
