@@ -7,7 +7,6 @@ class PostsController < ApplicationController
     render json:{ post: post }
   end
 
-  
 
   def checked
     post = Post.find(params[:id])
